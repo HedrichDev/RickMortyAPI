@@ -58,18 +58,18 @@ Este proyecto utiliza una arquitectura moderna y eficiente para ofrecer una expe
 
 ### Frontend (`/client`)
 
--   **Framework**: <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"> para construir la interfaz de usuario.
--   **Bundler**: <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"> para un desarrollo rápido y un build optimizado.
--   **Lenguaje**: <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> para un código más robusto y escalable.
--   **Gestión de Estado del Servidor**: <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query"> para un fetching de datos, cacheo y sincronización eficientes.
--   **Estilos**: <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"> para un diseño rápido y personalizable.
--   **Componentes UI**: Construido con <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui">, una colección de componentes reutilizables y accesibles.
--   **Routing**: <img src="https://img.shields.io/badge/Wouter-F04E98?style=for-the-badge&logo=github&logoColor=white" alt="Wouter"> para una navegación ligera y eficiente entre páginas.
--   **Animaciones**: <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"> para animaciones fluidas y declarativas.
+-   **Framework**: <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="React"> para construir la interfaz de usuario.
+-   **Bundler**: <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite"> para un desarrollo rápido y un build optimizado.
+-   **Lenguaje**: <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"> para un código más robusto y escalable.
+-   **Gestión de Estado del Servidor**: <img src="https://img.shields.io/badge/TanStack_Query-FF4154?logo=reactquery&logoColor=white" alt="TanStack Query"> para un fetching de datos, cacheo y sincronización eficientes.
+-   **Estilos**: <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS"> para un diseño rápido y personalizable.
+-   **Componentes UI**: Construido con <img src="https://img.shields.io/badge/shadcn%2Fui-000000?logo=shadcnui&logoColor=white" alt="shadcn/ui">, una colección de componentes reutilizables y accesibles.
+-   **Routing**: <img src="https://img.shields.io/badge/Wouter-F04E98?logo=github&logoColor=white" alt="Wouter"> para una navegación ligera y eficiente entre páginas.
+-   **Animaciones**: <img src="https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white" alt="Framer Motion"> para animaciones fluidas y declarativas.
 
 ### Backend (`/server`)
 
--   **Node.js**: <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"> Se utiliza un servidor Node.js/Express (via `server/index.ts`) principalmente para servir los archivos estáticos del frontend en producción y actuar como proxy para el servidor de desarrollo de Vite. Actualmente, no implementa rutas API complejas.
+-   **Node.js**: <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js"> Se utiliza un servidor Node.js/Express (via `server/index.ts`) principalmente para servir los archivos estáticos del frontend en producción y actuar como proxy para el servidor de desarrollo de Vite. Actualmente, no implementa rutas API complejas.
 
 ### Compartido (`/shared`)
 
