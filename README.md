@@ -37,24 +37,39 @@
 -   **Elementos de Diseño Estéticos**: Logos de Rick and Morty y de HedrichDev estratégicamente colocados para mejorar la experiencia visual.
 -   **Diseño Adaptable (Responsive)**: Disfruta de una experiencia de usuario fluida tanto en dispositivos de escritorio como en móviles.
 
+## 📸 Vistas Previa
+
+<p align="center">
+  <img src="./client/public/home.png" alt="Home Page Screenshot" width="400"/>
+</p>
+<p align="center">
+  <img src="./client/public/favorite.png" alt="Favorites Page Screenshot" width="400"/>
+</p>
+<p align="center">
+  <img src="./client/public/person.png" alt="Character Detail Page Screenshot" width="400"/>
+</p>
+<p align="center">
+  <img src="./client/public/opengraph.jpg" alt="Rick and Morty API Explorer Screenshot" width="400"/>
+</p>
+
 ## 🚀 Tecnologías Utilizadas
 
 Este proyecto utiliza una arquitectura moderna y eficiente para ofrecer una experiencia de usuario de alta calidad.
 
 ### Frontend (`/client`)
 
--   **Framework**: [React](https://reactjs.org/) para construir la interfaz de usuario.
--   **Bundler**: [Vite](https://vitejs.dev/) para un desarrollo rápido y un build optimizado.
--   **Lenguaje**: [TypeScript](https://www.typescriptlang.org/) para un código más robusto y escalable.
--   **Gestión de Estado del Servidor**: [TanStack Query](https://tanstack.com/query) para un fetching de datos, cacheo y sincronización eficientes.
--   **Estilos**: [Tailwind CSS](https://tailwindcss.com/) para un diseño rápido y personalizable.
--   **Componentes UI**: Construido con [shadcn/ui](https://ui.shadcn.com/), una colección de componentes reutilizables y accesibles.
--   **Routing**: [Wouter](https://github.com/molefrog/wouter) para una navegación ligera y eficiente entre páginas.
--   **Animaciones**: [Framer Motion](https://www.framer.com/motion/) para animaciones fluidas y declarativas.
+-   **Framework**: <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"> para construir la interfaz de usuario.
+-   **Bundler**: <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"> para un desarrollo rápido y un build optimizado.
+-   **Lenguaje**: <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> para un código más robusto y escalable.
+-   **Gestión de Estado del Servidor**: <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Query"> para un fetching de datos, cacheo y sincronización eficientes.
+-   **Estilos**: <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"> para un diseño rápido y personalizable.
+-   **Componentes UI**: Construido con <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui">, una colección de componentes reutilizables y accesibles.
+-   **Routing**: <img src="https://img.shields.io/badge/Wouter-F04E98?style=for-the-badge&logo=github&logoColor=white" alt="Wouter"> para una navegación ligera y eficiente entre páginas.
+-   **Animaciones**: <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"> para animaciones fluidas y declarativas.
 
 ### Backend (`/server`)
 
--   **Node.js**: Se utiliza un servidor Node.js/Express (via `server/index.ts`) principalmente para servir los archivos estáticos del frontend en producción y actuar como proxy para el servidor de desarrollo de Vite. Actualmente, no implementa rutas API complejas.
+-   **Node.js**: <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"> Se utiliza un servidor Node.js/Express (via `server/index.ts`) principalmente para servir los archivos estáticos del frontend en producción y actuar como proxy para el servidor de desarrollo de Vite. Actualmente, no implementa rutas API complejas.
 
 ### Compartido (`/shared`)
 
@@ -121,4 +136,19 @@ Este proyecto está bajo la Licencia MIT.
 
 <p align="center">
   Hecho con ❤️ por <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">HΞDЯICHDΞV</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">
+    <img src="./client/public/HedrichDev.png" alt="HedrichDev Logo" width="50"/>
+  </a>
+</p>
+
+## Video de Introducción
+
+<p align="center">
+  <video controls loop muted autoplay width="600">
+    <source src="./client/public/Intro.mp4" type="video/mp4">
+    Tu navegador no soporta el tag de video.
+  </video>
 </p>
