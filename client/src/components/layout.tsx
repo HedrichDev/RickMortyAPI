@@ -10,8 +10,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <header className="border-b border-border/40 bg-background/80 backdrop-blur-md sticky top-0 z-50">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <img src="/Logo.png" alt="Project Logo" className="h-8 w-8" />
             <h1 className="text-2xl font-display font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              RM EXPLORER
+              『HZ』┊ RICK AND MORTY
             </h1>
           </Link>
 
@@ -45,7 +46,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </main>
 
       <footer className="border-t border-border/40 py-8 text-center text-muted-foreground text-sm">
-        <p>© {new Date().getFullYear()} Rick and Morty Explorer. Built with React & Tailwind.</p>
+        <p>© {new Date().getFullYear()} Rick and Morty Explorer. HΞDЯICHDΞV </p>
+
       </footer>
     </div>
   );
