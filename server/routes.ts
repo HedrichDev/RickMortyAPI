@@ -1,11 +1,7 @@
-import type { Express } from "express";
-import { createServer, type Server } from "http";
-import { storage } from "./storage";
+import { Express } from 'express';
 
-export async function registerRoutes(
-  httpServer: Server,
-  app: Express
-): Promise<Server> {
-  
-  return httpServer;
+export function registerRoutes(app: Express) {
+  app.get('/api/health', (req, res) => {
+    res.status(200).send('OK');
+  });
 }
