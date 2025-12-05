@@ -25,7 +25,21 @@ export default function Home() {
   };
 
   return (
-    <div className="space-y-8">
+    <div className="relative min-h-screen">
+      <div className="absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover filter blur-sm"
+        >
+          <source src="https://www.dailymotion.com/embed/video/x4zb6jb" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div className="relative z-10 space-y-8">
       <div className="text-center space-y-4 mb-12">
         <h2 className="text-4xl md:text-6xl font-display font-bold bg-gradient-to-b from-white to-white/50 bg-clip-text text-transparent">
           The Multiverse
@@ -82,6 +96,7 @@ export default function Home() {
           />
         </>
       )}
+      </div>
     </div>
   );
 }
