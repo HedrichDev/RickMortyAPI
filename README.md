@@ -23,6 +23,13 @@
 </p>
 
 <p align="center">
+  <video controls loop muted autoplay width="600">
+    <source src="./client/public/Intro.mp4" type="video/mp4">
+    Tu navegador no soporta el tag de video.
+  </video>
+</p>
+
+<p align="center">
   ¡Bienvenido al Explorador del Multiverso de Rick and Morty! Esta aplicación te permite navegar, buscar y descubrir todos los personajes de la famosa serie, con una experiencia visual y sonora inmersiva.
 </p>
 
@@ -132,11 +139,12 @@ Este proyecto está bajo la Licencia MIT.
 ---
 
 <p align="center">
-  Hecho con ❤️ por <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">HΞDЯICHDΞV</a>
+  <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">
+    <img src="./client/public/HedrichDev.png" alt="HedrichDev Logo" width="150"/>
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">
-    <img src="./client/public/HedrichDev.png" alt="HedrichDev Logo" width="50"/>
-  </a>
+  Hecho con ❤️ por <a href="https://github.com/HedrichDev" target="_blank" rel="noopener noreferrer">HΞDЯICHDΞV</a>
 </p>
+
