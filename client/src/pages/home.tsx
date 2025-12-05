@@ -41,6 +41,7 @@ export default function Home() {
 
       <div className="relative z-10 space-y-8">
       <div className="text-center space-y-4 mb-12">
+        <img src="/LogoOriginal.png" alt="Rick and Morty Logo" className="mx-auto mb-4 w-48 sm:w-64" />
         <h2 className="text-4xl md:text-6xl font-display font-bold bg-gradient-to-b from-white to-white/50 bg-clip-text text-transparent">
           The Multiverse
         </h2>
