@@ -54,6 +54,8 @@ export default function CharacterDetail() {
         </Button>
       </Link>
 
+      <img src="/LogoOriginal.png" alt="Rick and Morty Logo" className="mx-auto mb-6 w-48 h-auto block" /> {/* Centered, larger */}
+
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -51,7 +51,8 @@ export function CharacterCard({ character, isFavorite, onToggleFavorite }: Chara
         
         <Link href={`/character/${character.id}`} className="block h-full">
           <CardContent className="p-4 space-y-2">
-            <div className="flex justify-between items-start gap-2">
+            <div className="flex items-center gap-2"> {/* Added items-center and adjusted gap */}
+              <img src="/LogoOriginal.png" alt="Rick and Morty Logo" className="w-6 h-6 object-contain" /> {/* Smaller size */}
               <h3 className="font-display font-bold text-lg leading-tight group-hover:text-primary transition-colors truncate">
                 {character.name}
               </h3>
