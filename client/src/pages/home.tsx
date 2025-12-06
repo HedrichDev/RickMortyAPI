@@ -53,7 +53,7 @@ export default function Home() {
       <SearchBar value={search} onChange={handleSearch} />
 
       {isLoading ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6">
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="space-y-3">
               <Skeleton className="h-[300px] w-full rounded-xl" />
@@ -77,7 +77,7 @@ export default function Home() {
             <motion.div 
               initial={{ opacity: 0 }} 
               animate={{ opacity: 1 }}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+              className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6"
             >
               {data?.results.map((char) => (
                 <CharacterCard
